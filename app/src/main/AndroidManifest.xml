@@ -10,11 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ANDY">
         <activity
-            android:name=".Home"
+            android:name=".homepage"
             android:exported="false" />
-        <activity
-            android:name=".LoginStart"
-            android:exported="false" />
+
         <activity
             android:name=".verify_screen1"
             android:exported="false" />
