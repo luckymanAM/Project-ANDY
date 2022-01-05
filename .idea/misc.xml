@@ -29,9 +29,25 @@
         <entry key="..\:/Kushal/Andriod Projects/Project ANDY/app/src/main/res/layout/onbording3.xml" value="0.21603260869565216" />
         <entry key="..\:/Kushal/Andriod Projects/Project ANDY/app/src/main/res/layout/reg_screen.xml" value="0.259375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/drawable/roundbtn.xml" value="0.24814814814814815" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/login.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/activity_homepage.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/activity_reset_password.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/card_view.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/fragment_a_minus.xml" value="0.2421875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/fragment_a_plus.xml" value="0.2421875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/fragment_ab_minus.xml" value="0.2421875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/fragment_ab_plus.xml" value="0.2421875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/fragment_b_minus.xml" value="0.2421875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/fragment_b_plus.xml" value="0.2421875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/fragment_create_request_fragment.xml" value="0.2421875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/fragment_homefragment.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/fragment_o_minus.xml" value="0.2421875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/fragment_o_plus.xml" value="0.2421875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/login.xml" value="0.2" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/onboarding3.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/reg_screen.xml" value="0.2" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/menu/main_menu.xml" value="0.2421875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.13802083333333334" />
       </map>
     </option>
   </component>

@@ -4,10 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 
 class login : AppCompatActivity() {
-    public lateinit var Register_now: Button
-    public lateinit var Forgetpss: Button
+    public lateinit var Register_now: TextView
+    public lateinit var Forgetpss: TextView
     public lateinit var Login: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,7 +27,7 @@ class login : AppCompatActivity() {
         }
 
         Forgetpss.setOnClickListener {
-            var intent = Intent(this, Reset_Password::class.java)
+            var intent = Intent(this,Reset_Password::class.java)
             startActivity(intent)
         }
         Login.setOnClickListener {

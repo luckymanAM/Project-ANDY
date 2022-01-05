@@ -3,19 +3,22 @@ package com.example.andy
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.InputType
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
+import com.google.android.material.textfield.TextInputEditText
 
 class reg_screen : AppCompatActivity() {
-    public lateinit var name: EditText
-    public lateinit var EmalAddress: EditText
-    public lateinit var Password: EditText
-    public lateinit var Blood_Group: EditText
-    public lateinit var mobile_no: EditText
-    public lateinit var location: EditText
+    public lateinit var name: TextView
+    public lateinit var EmalAddress: TextView
+    public lateinit var Password: TextView
+    public lateinit var Blood_Group: TextView
+    public lateinit var mobile_no: TextView
+    public lateinit var location: TextView
     public lateinit var register2 : Button
-    public lateinit var login2 : Button
+    public lateinit var login2 : TextView
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,7 +26,7 @@ class reg_screen : AppCompatActivity() {
         setContentView(R.layout.reg_screen)
 
         name = findViewById(R.id.name)
-        EmalAddress = findViewById<EditText>(R.id.EmailAddress)
+        EmalAddress = findViewById<TextView>(R.id.EmailAddress)
         Password = findViewById(R.id.Password)
         Blood_Group = findViewById(R.id.Blood_Group)
         mobile_no = findViewById(R.id.mobile_no)

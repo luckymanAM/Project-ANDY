@@ -4,10 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 
 class Onboarding2 : AppCompatActivity() {
-    public lateinit var next2: Button
-    public lateinit var skip2: Button
+    public lateinit var next2: TextView
+    public lateinit var skip2: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.onboarding2)

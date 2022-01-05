@@ -22,7 +22,7 @@
         android:id="@+id/txt_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dare To Donate"
+        android:text="Red Saviour"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -75,7 +75,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/Password" />
 
-    <Button
+    <TextView
         android:id="@+id/Forgetpss"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -97,13 +97,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login" />
 
-    <Button
+    <TextView
         android:id="@+id/Register_Now"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="144dp"
         android:text="Register Now"
-        android:textColor="@color/white"
+        android:textColor="#ff2156"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
