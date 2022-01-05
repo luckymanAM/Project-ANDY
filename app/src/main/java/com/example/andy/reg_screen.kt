@@ -36,7 +36,7 @@ class reg_screen : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         login2.setOnClickListener {
-            var intent = Intent(this, LoginStart::class.java)
+            var intent = Intent(this, login::class.java)
             startActivity(intent)
 
         }
