@@ -11,12 +11,12 @@ import android.widget.Toast
 import com.google.android.material.textfield.TextInputEditText
 
 class reg_screen : AppCompatActivity() {
-    public lateinit var name: TextView
-    public lateinit var EmalAddress: TextView
-    public lateinit var Password: TextView
-    public lateinit var Blood_Group: TextView
-    public lateinit var mobile_no: TextView
-    public lateinit var location: TextView
+    public lateinit var name: TextInputEditText      // changed type from TextView to TextInputEditText
+    public lateinit var EmalAddress: TextInputEditText
+    public lateinit var Password: TextInputEditText
+    public lateinit var Blood_Group: TextInputEditText
+    public lateinit var mobile_no: TextInputEditText
+    public lateinit var location: TextInputEditText
     public lateinit var register2 : Button
     public lateinit var login2 : TextView
 
@@ -26,8 +26,8 @@ class reg_screen : AppCompatActivity() {
         setContentView(R.layout.reg_screen)
 
         name = findViewById(R.id.name)
-        EmalAddress = findViewById<TextView>(R.id.EmailAddress)
-        Password = findViewById(R.id.Password)
+        EmalAddress = findViewById<TextInputEditText>(R.id.EmailAddress2) //changed id from EmailAddress to EmailAddress2
+        Password = findViewById(R.id.Password2)  //changed id from Password to Password2
         Blood_Group = findViewById(R.id.Blood_Group)
         mobile_no = findViewById(R.id.mobile_no)
         location = findViewById(R.id.location)

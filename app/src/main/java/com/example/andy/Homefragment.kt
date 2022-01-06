@@ -16,10 +16,10 @@ class Homefragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         var navController = Navigation.findNavController(view)
-//        val card1 = view.findViewById<CardView>(R.id.card1)
-//        card1.setOnClickListener {
-//            navController.navigate(R.id.action_homefragment_to_homepage)
-//        }
+       val card1 = view.findViewById<CardView>(R.id.card1)
+       card1.setOnClickListener {
+           Toast.makeText(activity, "This is the Home Page ", Toast.LENGTH_SHORT).show()
+        }
         val card2 = view.findViewById<CardView>(R.id.card2)
         card2.setOnClickListener {
             navController.navigate(R.id.action_homefragment_to_create_request_fragment)
