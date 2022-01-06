@@ -11,13 +11,14 @@ import com.google.android.material.navigation.NavigationView
 
 class homepage : AppCompatActivity() {
     lateinit var toggle : ActionBarDrawerToggle
-    lateinit var drawerLayout: DrawerLayout
+    lateinit var  drawerLayout : DrawerLayout
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_homepage)
 
-        drawerLayout = findViewById(R.id.drawer_layout)
+        drawerLayout  = findViewById(R.id.drawer_layout)
         val navView : NavigationView = findViewById(R.id.navigationview)
 
         toggle = ActionBarDrawerToggle(this,drawerLayout,R.string.navigation_open_drawer,R.string.navigation_close_drawer)
@@ -26,24 +27,20 @@ class homepage : AppCompatActivity() {
         navView.setNavigationItemSelectedListener {
             it.isChecked = true
             when(it.itemId){
-                R.id.home_page -> replacefragment(Homefragment(),it.title.toString())
+                //R.id.home_page -> replacefragment(Homefragment(),it.title.toString())
                 R.id.search_donor -> replacefragment(sendEmailfragment(),it.title.toString())
                 R.id.createrequest ->replacefragment(create_request_fragment(),it.title.toString())
-                R.id.a_plus -> Toast.makeText(applicationContext, "clicked a plus", Toast.LENGTH_SHORT).show()
-                R.id.a_minus -> Toast.makeText(applicationContext, "a_minus", Toast.LENGTH_SHORT).show()
-                R.id.b_minus -> Toast.makeText(applicationContext, "clicked b minus", Toast.LENGTH_SHORT).show()
-                R.id.b_plus -> Toast.makeText(applicationContext, "clicked b plus", Toast.LENGTH_SHORT).show()
-                R.id.ab_plus -> Toast.makeText(applicationContext, "clicked ab plus", Toast.LENGTH_SHORT).show()
-                R.id.ab_minus -> Toast.makeText(applicationContext, "clicked ab minus", Toast.LENGTH_SHORT).show()
-                R.id.o_minus -> Toast.makeText(applicationContext, "clicked o minus", Toast.LENGTH_SHORT).show()
-                R.id.o_plus -> Toast.makeText(applicationContext, "clicked o plus", Toast.LENGTH_SHORT).show()
+                R.id.a_plus -> replacefragment(a_plus(),it.title.toString())
+                R.id.a_minus -> replacefragment(a_minus(),it.title.toString())
+                R.id.b_minus -> replacefragment(b_minus(),it.title.toString())
+                R.id.b_plus -> replacefragment(b_plus(),it.title.toString())
+                R.id.ab_plus -> replacefragment(ab_plus(),it.title.toString())
+                R.id.ab_minus -> replacefragment(ab_minus(),it.title.toString())
+                R.id.o_minus ->replacefragment(o_minus(),it.title.toString())
+                R.id.o_plus ->replacefragment(o_plus(),it.title.toString())
                 R.id.profile -> replacefragment(ProfileFragment(),it.title.toString())
                 R.id.notification -> Toast.makeText(applicationContext, "clicked home", Toast.LENGTH_SHORT).show()
                 R.id.logout -> Toast.makeText(applicationContext, "clicked home", Toast.LENGTH_SHORT).show()
-               // R.id.card1 -> replacefragment(Homefragment(),it.title.toString())
-                //R.id.card2 -> replacefragment(Homefragment(),it.title.toString())
-               // R.id.card3 -> replacefragment(ProfileFragment(),it.title.toString())
-                //R.id.card4 -> replacefragment(Homefragment(),it.title.toString())
 
             }
             true
@@ -54,6 +51,7 @@ class homepage : AppCompatActivity() {
         val fragmentTransaction = fragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.framelayout,fragment)
         fragmentTransaction.commit()
+
         drawerLayout.closeDrawers()
         setTitle(title)
     }
@@ -64,4 +62,5 @@ class homepage : AppCompatActivity() {
         }
         return super.onOptionsItemSelected(item)
     }
+
 }

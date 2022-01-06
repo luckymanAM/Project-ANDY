@@ -8,8 +8,8 @@ import android.widget.Button
 import android.widget.TextView
 
 class Onboarding1 : AppCompatActivity() {
-    public lateinit var next: Button
-    public lateinit var skip:Button
+    public lateinit var next: TextView
+    public lateinit var skip:TextView
 
     //var next:TextView
     override fun onCreate(savedInstanceState: Bundle?) {
