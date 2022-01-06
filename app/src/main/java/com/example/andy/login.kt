@@ -36,18 +36,21 @@ class login : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
+
+        val emailaddr = EmailAddress.text.toString().trim()
+        val paswd = Password.text.toString().trim()
+
         Register_now.setOnClickListener {
             startActivity(Intent(this, RegScreen::class.java))
         }
 
         Forgetpss.setOnClickListener {
-            Toast.makeText(this, "clicked", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this, "clicked", Toast.LENGTH_SHORT).show()
             startActivity(Intent(this, ResetPassword::class.java))             //bug2- unable to redirect in Reset_Password
         }
 
         Login.setOnClickListener {
-            val emailaddr = EmailAddress.text.toString().trim()
-            val paswd = Password.text.toString().trim()
+            /*
             if (emailaddr.isEmpty()) {
                 EmailAddress.error = "Email Required"
                 EmailAddress.requestFocus()
@@ -57,7 +60,7 @@ class login : AppCompatActivity() {
                 Password.error = "Enter Password"
                 Password.requestFocus()
                 return@setOnClickListener
-            }
+            }*/
             checkUser()
 
         }

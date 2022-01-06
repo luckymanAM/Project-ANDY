@@ -143,11 +143,11 @@ class RegScreen : AppCompatActivity() {
                     //Log.e("task message", "Regestered Successfully")
                     login()
                     Toast.makeText(this,"Registered Successfully", Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this, login::class.java))
+                    startActivity(Intent(this, VerifyEmail::class.java))
                 }else{
                     //Log.e("task", "Failed..."+task.exception)
                     task.exception?.message?.let {
-                        Toast.makeText(this, "Invalid Credentials", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Invalid Credentials Or User already exists", Toast.LENGTH_SHORT).show()
                     }
                 }
             }

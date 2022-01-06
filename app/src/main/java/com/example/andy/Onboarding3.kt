@@ -6,8 +6,8 @@ import android.os.Bundle
 import android.widget.Button
 
 class Onboarding3 : AppCompatActivity() {
-    public lateinit var login: Button
-    public lateinit var register:Button
+    lateinit var login: Button
+    lateinit var register:Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.onboarding3)
@@ -29,7 +29,5 @@ class Onboarding3 : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-
-
     }
 }
