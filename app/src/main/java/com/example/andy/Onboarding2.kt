@@ -23,11 +23,13 @@ class Onboarding2 : AppCompatActivity() {
         next2.setOnClickListener {
             val intent = Intent(this, Onboarding3::class.java)
             startActivity(intent)
+            finish()
         }
 
         skip2.setOnClickListener {
             val intent = Intent(this, Onboarding1::class.java)
             startActivity(intent)
+            finish()
         }
 
 

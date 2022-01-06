@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.andy">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -20,13 +21,13 @@
             android:name=".verify_screen2"
             android:exported="false" />
         <activity
-            android:name=".Reset_Password"
+            android:name=".ResetPassword"
             android:exported="false" />
         <activity
             android:name=".create_request"
             android:exported="false" />
         <activity
-            android:name=".reg_screen"
+            android:name=".RegScreen"
             android:exported="false" />
         <activity
             android:name=".login"

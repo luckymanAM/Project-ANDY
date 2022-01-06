@@ -28,6 +28,10 @@
         <entry key="..\:/Kushal/Andriod Projects/Project ANDY/app/src/main/res/layout/onbording2.xml" value="0.259375" />
         <entry key="..\:/Kushal/Andriod Projects/Project ANDY/app/src/main/res/layout/onbording3.xml" value="0.21603260869565216" />
         <entry key="..\:/Kushal/Andriod Projects/Project ANDY/app/src/main/res/layout/reg_screen.xml" value="0.259375" />
+        <entry key="..\:/Project-ANDY/app/src/main/res/layout/activity_reset_password.xml" value="0.259375" />
+        <entry key="..\:/Project-ANDY/app/src/main/res/layout/fragment_profile.xml" value="0.259375" />
+        <entry key="..\:/Project-ANDY/app/src/main/res/layout/login.xml" value="0.259375" />
+        <entry key="..\:/Project-ANDY/app/src/main/res/layout/reg_screen.xml" value="0.259375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/drawable/roundbtn.xml" value="0.24814814814814815" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/login.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/updated-project andy/app/src/main/res/layout/onboarding3.xml" value="0.1793478260869565" />
@@ -35,7 +39,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

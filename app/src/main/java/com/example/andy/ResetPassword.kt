@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 
-class Reset_Password : AppCompatActivity() {
+class ResetPassword : AppCompatActivity() {
     public lateinit var send_btn: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

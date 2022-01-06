@@ -30,6 +30,7 @@ class Onboarding1 : AppCompatActivity() {
         next.setOnClickListener {
             val intent = Intent(this, Onboarding2::class.java)
             startActivity(intent)
+            finish()
 
             
         }
@@ -39,6 +40,7 @@ class Onboarding1 : AppCompatActivity() {
         skip.setOnClickListener {
             val intent = Intent(this, Onboarding3::class.java)
             startActivity(intent)
+            finish()
         }
 
 

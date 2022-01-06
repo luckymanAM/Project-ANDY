@@ -21,11 +21,13 @@ class Onboarding3 : AppCompatActivity() {
         login.setOnClickListener {
             val intent = Intent(this, com.example.andy.login::class.java)
             startActivity(intent)
+            finish()
         }
 
         register.setOnClickListener {
-            val intent = Intent(this, reg_screen::class.java)
+            val intent = Intent(this, RegScreen::class.java)
             startActivity(intent)
+            finish()
         }
 
 
